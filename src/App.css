@@ -1,21 +1,14 @@
-.App {
-  text-align: center;
+
+
+.fruitsInComponent:nth-child(even) {
+  background-color: azure;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,12 +20,28 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fruits {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: aquamarine;
+  display: inline-block;
+  width: 50%;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+}
+.tabs > div{
+  border: 1px solid gray;
+  padding: 1em;
+  margin: 0.2em;
+}
+.selected {
+  background-color: blueviolet;
+}
+.clock {
+  border: 1px solid gray;
+  background-color: cornsilk;
+  padding: 1em;
+  margin: 1em;
 }
